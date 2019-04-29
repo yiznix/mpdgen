@@ -24,7 +24,7 @@ import (
 var (
     srcFile = flag.String("file", "", "The path to the soruce video.")
     destDir = flag.String("dest", "", "The directory where the manifest and segments are stored.")
-    segment = flag.String("segment", "10000", "Dash segment value")
+    segment = flag.String("segment", "1000", "Dash segment value")
 )
 
 func main() {
