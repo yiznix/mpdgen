@@ -1,4 +1,3 @@
-// Copyright 2019 yiznix.com. All rights reserved.
 // Use of this source code is governed by the license that can be found in LICENSE file.
 
 package main

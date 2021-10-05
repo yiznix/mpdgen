@@ -1,4 +1,3 @@
-// Copyright 2019 yiznix.com. All rights reserved.
 // Use of this source code is governed by the license that can be found in LICENSE file.
 
 package mpdgen
@@ -155,14 +154,14 @@ func getVideoAttr(videoMPD string) (*videoAttr, error) {
 	va := &videoAttr{
 		minBufferTime:             minBufferTime,
 		mediaPresentationDuration: mediaPresentationDuration,
-		codecs:    codecs,
-		par:       par,
-		width:     width,
-		height:    height,
-		frameRate: frameRate,
-		bandwidth: bandwidth,
-		timescale: timescale,
-		duration:  duration,
+		codecs:                    codecs,
+		par:                       par,
+		width:                     width,
+		height:                    height,
+		frameRate:                 frameRate,
+		bandwidth:                 bandwidth,
+		timescale:                 timescale,
+		duration:                  duration,
 	}
 	return va, nil
 }
@@ -234,11 +233,11 @@ func getAudioAttr(audioMPD string) (*audioAttr, error) {
 	aa := &audioAttr{
 		minBufferTime:             minBufferTime,
 		mediaPresentationDuration: mediaPresentationDuration,
-		codecs:            codecs,
-		audioSamplingRate: audioSamplingRate,
-		bandwidth:         bandwidth,
-		timescale:         timescale,
-		duration:          duration,
+		codecs:                    codecs,
+		audioSamplingRate:         audioSamplingRate,
+		bandwidth:                 bandwidth,
+		timescale:                 timescale,
+		duration:                  duration,
 	}
 
 	return aa, nil
